@@ -5,7 +5,7 @@
 
 # github pagesのurl
 github pagesを用いて、一部の静的なWebページを表示した。以下にurlを示す。
-
+https://keitakobe.github.io/front_practice/
 # Webページ一覧
 
 
