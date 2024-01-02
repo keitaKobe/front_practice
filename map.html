@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プレミアリーグのチーム位置マップ</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key='API_key'"></script> 
+</head>
+<body>
+        <!-- ナビゲーションバー -->
+    <nav>
+        <ul class="menu">
+            <li><a href="map.html">地図</a></li>
+            <li><a href="teams.html">チーム紹介</a></li>
+            <li><a href="index.html"><img src="./graph/premier logo.jpeg" alt="logo" width="50px" height="50px"></a></li>
+            <li><a href="ranking.html">順位表</a></li>
+            <li><a href="news.html">ニュース</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div id="map"></div>
+
+    <script>
+        function initialize() {
+            const mapOptions = {
+                center: { lat: 52.3555, lng: -1.1743 }, // イングランドの中心
+                zoom: 6
+            };
+
+            const map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+            // プレミアリーグのチームの位置の例
+            const teams = [
+                
+                { name: 'Tottenham', position: { lat: 51.6044, lng: -0.0663 } , icon: './emblem/Tottenham.png', url:'./team/Tottenham.html'},
+                { name: 'ManCity', position: { lat: 53.4832, lng: -2.2002 } , icon: './emblem/ManCity.png', url:'./team/ManCity.html'},
+                { name: 'Arsenal', position: { lat: 51.5555, lng: -0.1092 } , icon: './emblem/Arsenal.png', url:'./team/Arsenal.html'},
+                { name: 'Liverpool', position: { lat: 53.4309, lng: -2.9608 } , icon: './emblem/Liverpool.png', url:'./team/Liverpool.html'},
+                { name: 'AstonVilla', position: { lat: 52.5093, lng: -1.8848 } , icon: './emblem/AstonVilla.png', url:'./team/AstonVilla.html'},
+                { name: 'Newcastle', position: { lat: 54.9756, lng: -1.6216 } , icon: './emblem/Newcastle.png', url:'./team/Newcastle.html'},
+                { name: 'Brighton', position: { lat: 50.8616, lng: -0.0838 } , icon: './emblem/Brighton.png', url:'./team/Brighton.html'},
+                { name: 'ManUnited', position: { lat: 53.4631, lng: -2.2914 } , icon: './emblem/ManUnited.png', url:'./team/ManUnited.html'},
+                { name: 'WestHam', position: { lat: 51.5389, lng: -0.0172 } , icon: './emblem/WestHam.png', url:'./team/WestHam.html'},
+                { name: 'Chelsea', position: { lat: 51.4817, lng: -0.1909 } , icon: './emblem/Chelsea.png', url:'./team/Chelsea.html'},
+                { name: 'Crystal', position: { lat: 51.3981, lng: -0.086 } , icon: './emblem/Crystal.png', url:'./team/Crystal.html'},
+                { name: 'Wolves', position: { lat: 52.5904, lng: -2.1305 } , icon: './emblem/Wolves.png', url:'./team/Wolves.html'},
+                { name: 'Fulham', position: { lat: 51.4749, lng: -0.2216 } , icon: './emblem/Fulham.png', url:'./team/Fulham.html'},
+                { name: 'Brentford', position: { lat: 51.4908, lng: -0.2887 } , icon: './emblem/Brentford.png', url:'./team/Brentford.html'},
+                { name: 'NotForest', position: { lat: 52.94, lng: -1.1329 } , icon: './emblem/NotForest.png', url:'./team/NotForest.html'},
+                { name: 'Everton', position: { lat: 53.4389, lng: -2.9662 } , icon: './emblem/Everton.png', url:'./team/Everton.html'},
+                { name: 'Luton', position: { lat: 51.8843, lng: -0.4317 } , icon: './emblem/Luton.png', url:'./team/Luton.html'},
+                { name: 'Burnley', position: { lat: 53.7891, lng: -2.2302 } , icon: './emblem/Burnley.png', url:'./team/Burnley.html'},
+                { name: 'Bournemouth', position: { lat: 50.7358, lng: -1.8398 } , icon: './emblem/Bournemouth.png', url:'./team/Bournemouth.html'},
+                { name: 'Sheffield', position: { lat: 53.3706, lng: -1.471 } , icon: './emblem/Sheffield.png', url:'./team/Sheffield.html'},
+
+            ];
+
+            for (const team of teams) {
+                const marker = new google.maps.Marker({
+                    position: team.position,
+                    map: map,
+                    title: team.name,
+                    icon: {
+                        url:team.icon,
+                        scaledSize: new google.maps.Size(100, 100)
+                    }, 
+                });
+                google.maps.event.addListener(marker, 'click',function() {window.location.href = team.url;
+                });
+            }
+        }
+
+        // マップの初期化
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</body>
+</html>
