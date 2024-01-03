@@ -24,7 +24,7 @@ github pagesを用いて、一部の静的なWebページを表示した。以�
 
 | チームページ | |
 | ---- | ---- |
-|![スクリーンショット (69)](https://github.com/keitaKobe/front_practice/assets/155284100/6a6d7169-fbc7-46db-9067-10424a15f813) |![スクリーンショット (71)](https://github.com/keitaKobe/front_practice/assets/155284100/76530e80-1a6e-482e-9abd-a5a525eb0216) |
+| ![スクリーンショット (69)](https://github.com/keitaKobe/front_practice/assets/155284100/7599390f-415c-4c37-8ab2-08d2df117a21)　|　![スクリーンショット (71)](https://github.com/keitaKobe/front_practice/assets/155284100/fa9fc796-8617-4ded-ad1c-59aa9ebe9312) |
 | 各チームの基本情報を表示するページ。　|　パターン２　|
 
 # 使用技術
