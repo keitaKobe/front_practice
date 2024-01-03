@@ -15,7 +15,7 @@ https://keitakobe.github.io/front_practice/
 
 | マップページ | 概要 |
 | ---- | ---- |
-| ![スクリーンショット (62)](https://github.com/keitaKobe/front_practice/assets/155284100/faf0f18d-c6c5-442c-b4cd-5bf8738f476e) | |
+| ![スクリーンショット (62)](https://github.com/keitaKobe/front_practice/assets/155284100/faf0f18d-c6c5-442c-b4cd-5bf8738f476e) | リーグに所属するチームのホームタウンをマップ上に表示するページ。Google Maps PlatformのMaps JavaScript APIを使用し、マップを表示している。|
 
 | 順位表ページ | ニュースページ |
 | ---- | ---- |
