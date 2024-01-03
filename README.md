@@ -20,7 +20,7 @@ https://keitakobe.github.io/front_practice/
 | 順位表ページ | ニュースページ |
 | ---- | ---- |
 | ![スクリーンショット (63)](https://github.com/keitaKobe/front_practice/assets/155284100/c8088824-265b-445d-bcec-860aa7ca63ee) | ![スクリーンショット (63)](https://github.com/keitaKobe/front_practice/assets/155284100/c8088824-265b-445d-bcec-860aa7ca63ee) |
-|  | 今後実装予定 |
+| football-data.orgという無料APIを使って、リーグ順位を記載する予定。 | 今後実装予定。 |
 
 
 
