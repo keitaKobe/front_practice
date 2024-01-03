@@ -15,7 +15,7 @@ github pagesを用いて、一部の静的なWebページを表示した。以�
 
 | マップページ | 概要 |
 | ---- | ---- |
-| ![スクリーンショット (62)](https://github.com/keitaKobe/front_practice/assets/155284100/faf0f18d-c6c5-442c-b4cd-5bf8738f476e) | リーグに所属するチームのホームタウンをマップ上に表示するページ。Google Maps PlatformのMaps JavaScript APIを使用し、マップを表示している。<br>**機能** <br> ・各チームのエンブレムをクリックすると、各チームの紹介ページに移動する。<br>＊今回のコードでは、セキュリティの関係で、APIキーを記載できず、github pagesでマップページを表示することができなかった。<br>→　Githubに安全にAPIキーを載せる方法を勉強する必要がある。|
+| ![スクリーンショット (62)](https://github.com/keitaKobe/front_practice/assets/155284100/faf0f18d-c6c5-442c-b4cd-5bf8738f476e) | リーグに所属するチームのホームタウンをマップ上に表示するページ。Google Maps PlatformのMaps JavaScript APIを使用し、マップを表示している。<br><br>**機能** <br> ・各チームのエンブレムをクリックすると、各チームの紹介ページに移動する。<br><br>＊今回のコードでは、セキュリティの関係で、APIキーを記載できず、github pagesでマップページを表示することができなかった。<br>→　Githubに安全にAPIキーを載せる方法を勉強する必要がある。|
 
 | 順位表ページ | ニュースページ |
 | ---- | ---- |
