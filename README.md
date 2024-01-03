@@ -15,7 +15,7 @@ https://keitakobe.github.io/front_practice/
 
 | マップページ | 概要 |
 | ---- | ---- |
-| ![スクリーンショット (62)](https://github.com/keitaKobe/front_practice/assets/155284100/faf0f18d-c6c5-442c-b4cd-5bf8738f476e) | リーグに所属するチームのホームタウンをマップ上に表示するページ。Google Maps PlatformのMaps JavaScript APIを使用し、マップを表示している。|
+| ![スクリーンショット (62)](https://github.com/keitaKobe/front_practice/assets/155284100/faf0f18d-c6c5-442c-b4cd-5bf8738f476e) | リーグに所属するチームのホームタウンをマップ上に表示するページ。Google Maps PlatformのMaps JavaScript APIを使用し、マップを表示している。<br>**機能** <br> ・各チームのエンブレムをクリックすると、各チームの紹介ページに移動する。<br>＊今回のコードでは、セキュリティの関係で、APIキーを記載できず、github pagesでマップページを表示することができなかった。<br>→　Githubに安全にAPIキーを載せる方法を勉強する必要がある。|
 
 | 順位表ページ | ニュースページ |
 | ---- | ---- |
@@ -32,3 +32,8 @@ https://keitakobe.github.io/front_practice/
 | Design | Figma, Canva|
 | Editor | Vscode, PyCharm|
 |etc. | Github |
+
+
+# 今後の展望
+・順位表ページの開発にあたって、football-data.orgという無料APIを使い、情報を取得する。その際、バックエンドの開発が必要。
+・ニュースページの開発。
