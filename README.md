@@ -13,3 +13,22 @@ https://keitakobe.github.io/front_practice/
 | ![main_page](https://github.com/keitaKobe/front_practice/assets/155284100/33bbdcbc-6dfa-4b63-98a8-a47dcba47193) | ![teams_page](https://github.com/keitaKobe/front_practice/assets/155284100/cec6d36e-72a1-4dcf-9a79-394b5098f49b) |
 | Webページのメインページ。 | TD |
 
+| マップページ | 概要 |
+| ---- | ---- |
+| ![スクリーンショット (62)](https://github.com/keitaKobe/front_practice/assets/155284100/faf0f18d-c6c5-442c-b4cd-5bf8738f476e) | |
+
+| 順位表ページ | ニュースページ |
+| ---- | ---- |
+| ![スクリーンショット (63)](https://github.com/keitaKobe/front_practice/assets/155284100/c8088824-265b-445d-bcec-860aa7ca63ee) | ![スクリーンショット (63)](https://github.com/keitaKobe/front_practice/assets/155284100/c8088824-265b-445d-bcec-860aa7ca63ee) |
+|  | 今後実装予定 |
+
+
+
+
+# 使用技術
+| Category	 | Technology Stack |
+| ---- | ---- |
+| Frontend | html, css, javascript |
+| Design | Figma, Canva|
+| Editor | Vscode, PyCharm|
+|etc. | Github |
