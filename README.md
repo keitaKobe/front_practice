@@ -11,7 +11,7 @@ https://keitakobe.github.io/front_practice/
 | メインページ | チーム一覧のページ |
 | ---- | ---- |
 | ![main_page](https://github.com/keitaKobe/front_practice/assets/155284100/33bbdcbc-6dfa-4b63-98a8-a47dcba47193) | ![teams_page](https://github.com/keitaKobe/front_practice/assets/155284100/cec6d36e-72a1-4dcf-9a79-394b5098f49b) |
-| Webページのメインページ。 | TD |
+| Webページのメインページ。メニューバー、広告的なものを表示するエリア、注目の対戦カードのエリアを配置。<br>**機能**<br> ・メニューバーをクリックすると他ページへ移動。<br> ・対戦カードのクラブエンブレムをクリックするとチームを変更できる。 | リーグに所属するチームを表示するページ。20チームのエンブレムを配置。<br>**機能** <br> 各チームのエンブレムをクリックすると、各チームの紹介ページに移動する。 |
 
 | マップページ | 概要 |
 | ---- | ---- |
